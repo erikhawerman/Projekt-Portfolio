@@ -14,3 +14,49 @@
 body {
   background-color: var(--color-primary-darker);
 }
+.navbar {
+  text-align: center;
+}
+.menu-list {
+  list-style-type: none;
+  margin: 1em;
+  display: none;
+}
+.menu-list li {
+  display: inline;
+  margin-left: 2em;
+}
+.menu-list li a {
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+}
+.logo {
+  height: auto;
+  width: 4em;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+.burger-icon {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1em;
+  width: 2em;
+  height: auto;
+  cursor: pointer;
+}
+@media screen and (min-width: 763px) {
+  .menu-list {
+    display: block;
+  }
+  .burger-icon {
+    display: none;
+  }
+}
