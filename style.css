@@ -41,6 +41,7 @@ body {
   left: 0;
   top: 0;
   position: absolute;
+  margin: 1em;
 }
 .burger-icon {
   display: block;
@@ -59,4 +60,13 @@ body {
   .burger-icon {
     display: none;
   }
+}
+.first-page {
+  text-align: center;
+}
+
+.group-name {
+  margin-top: 4em;
+  width: 25%;
+  height: auto;
 }
